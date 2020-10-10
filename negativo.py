@@ -7,4 +7,3 @@ while numero >= 0:
     numero = int (input ())
 
 print ( "Total de pares=",contadorDePares,sep = "")
-
