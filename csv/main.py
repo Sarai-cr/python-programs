@@ -1,0 +1,32 @@
+import csv
+from funciones import *
+
+print (not "")
+
+matriz = creaMatriz("top1000.csv")
+reporte(matriz)
+print ()
+reporteMaximo(matriz)
+print ()
+reporteMinimo(matriz)
+print ()
+reporteDesviacion(matriz)
+print ()
+print ("Percentil 25%")
+reportePercentiles(matriz,25)
+print ()
+print ("Percentil 50%")
+reportePercentiles(matriz,50)
+print ()
+print ("Percentil 75%")
+reportePercentiles(matriz,75)
+print ()
+reporteModa(matriz)
+
+print ()
+print (damePeliculaMayorIngreso(matriz))
+print ()
+#print (damePeliculasRango(matriz,2000,2010))
+print ()
+print (tituloMasLargo(matriz))
+print ()
