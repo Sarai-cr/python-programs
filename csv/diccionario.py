@@ -17,5 +17,4 @@ for i in range (3):
 print(alumnos)
 
 #para guardar un dato en un diccionario no es necesario usar el append
-#para borrar en elemnto de un diccionario
-del alumno
+#para borrar en elemnto de un diccionario del alumno
