@@ -1,6 +1,6 @@
 import csv
 import math
-#from funciones_matriz import*
+from funciones_matriz import*
 
 def creaMatriz(nombre_archivo):
     with open(nombre_archivo,newline="") as csv_archivo:
@@ -140,3 +140,10 @@ def tituloMasLargo(matriz):
             lista= matriz[i+1]
             titulo=titulos[i]
     return lista
+
+def indicesDadoUnValor(valorBuscado, columnaDatos):
+    listaIndices = []
+    for indice in range( len(columnaDatos) ):
+        if valorBuscado == columnaDatos[indice]:
+            listaIndices.append(indice)
+    return listaIndices

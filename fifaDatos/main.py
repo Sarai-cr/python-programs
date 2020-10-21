@@ -1,7 +1,15 @@
-from funciones import*
+from respuestas import*
 
 archivoDatos = "FIFA.csv"
 
 matriz = creaMatriz(archivoDatos)
+menu()
 
-print( len(matriz) )
+a = graficaJugadorMasAlto(matriz)
+graficaJugadorMasBajo(matriz)
+graficaJugadorMasGordo(matriz)
+graficaJugadorMasFlaco(matriz)
+graficaJugadorMasAgil(matriz)
+graficaJugadorMenosAgil(matriz)
+graficaJugadorMasViejo(matriz)
+graficaJugadorMasJoven(matriz)
